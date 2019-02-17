@@ -1,0 +1,14 @@
+.box {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+#colors {
+    transition: background-color 0.5s linear 0.3s;
+    background-color: yellowgreen;
+}
+#colors:hover {
+    background-color: deepskyblue;
+    cursor: not-allowed;
+
+}

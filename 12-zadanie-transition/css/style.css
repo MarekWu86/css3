@@ -1,0 +1,27 @@
+div {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+#redsquare {
+    background-color: red;
+    transition: ease-in 0.3s;
+} 
+#bluesquare {
+    background-color:  blue;
+    transition: ease-in 0.3s;
+}
+#greensquare {
+    background-color: green;
+    transition: ease-in 0.3s;
+}
+#redsquare:hover {
+    width: 300px;
+} 
+#bluesquare:hover {
+    height: 300px;
+}
+#greensquare:hover {
+    width: 300px;
+    height: 300px;
+}

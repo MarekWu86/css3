@@ -1,0 +1,65 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+input, #message, #city {
+    background-color: #2b4a64;
+}
+
+form {
+    background-color: #213b50;
+    padding: 20px;
+    width: 500px;
+    font-size: 13px;
+}
+input {
+    margin-top: 5px;
+    height: 25px;
+    margin-bottom: 5px;
+    width: 250px;
+    border: 1px solid #2b4a64;
+    
+}
+input:focus {
+    outline: none;
+    background-color: #4e708c;
+    border: 1px solid white;
+}
+[type="radio"], [type="checkbox"] {
+    width: 20px;
+    height: 13px;
+    margin-left: 0;
+}
+[type="submit"] {
+    background-color: rgb(28, 164, 28);
+    font-weight: bold;
+    width: 70px;
+    height: 35px;
+    padding: 10px;
+}
+#city {
+    border: none;
+    width: 250px;
+    height: 25px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+#message {
+    height: 200px;
+    width: 250px;
+    border: none;
+    margin-top: 5px;
+    resize: none;
+    border: 1px solid #2b4a64;
+   
+}
+#message:focus {
+    outline: none;
+    background-color: #4e708c;
+    border: 1px solid white;
+
+}
+[for="agreement"] {
+    font-size: 10px;
+}
+

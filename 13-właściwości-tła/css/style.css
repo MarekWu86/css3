@@ -1,0 +1,6 @@
+#background-img {
+    background-color: red;
+    background-image: url("../img/truskawka.jpg");
+    background-repeat: repeat-x;
+    background-size: 30%;
+}

@@ -1,0 +1,24 @@
+* {
+    color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    color: rgb(88, 150, 84);
+}
+#kasia {
+    color: rgb(165, 75, 75);
+}
+p.lorak {
+    color: rgb(81, 81, 169);
+}
+ul span {
+    color: sandybrown;
+}
+
+li#pierwszy ~ li > a{
+    color: deeppink;
+}
+
+li#pierwszy + li > a{
+    color: rgb(238, 187, 57);
+}

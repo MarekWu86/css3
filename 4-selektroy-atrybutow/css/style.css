@@ -1,0 +1,15 @@
+[title] {
+    color: red;
+}
+[title="About me"] {
+    color: orange;
+}
+[title~="Container"] {
+    color: green;
+}
+[title^="More"] {
+    color: blueviolet;
+}
+[title$="skills"] {
+    color: blueviolet;
+}
