@@ -1,0 +1,49 @@
+
+/* 
+------------------------------------
+Domyślne kolory 'flex-item' - START
+------------------------------------ 
+*/
+
+.flex-item {
+    color: #fff;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid blue;
+    background-color: orange;
+    flex-basis: 23%;
+}
+
+.flex-item:nth-last-of-type(odd) {
+    background-color: lightgray;
+}
+/* 
+------------------------------------
+Domyślne kolory 'flex-item' - END
+------------------------------------ 
+*/
+
+.container {
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px dashed red;
+    display: flex;
+    height: 700px;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: space-between; */
+    /* align-items: space-around; */
+}
+.ordered-item {
+    align-self: flex-end;
+}
+
+
+
+
+
