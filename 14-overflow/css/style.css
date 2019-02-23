@@ -16,6 +16,7 @@
 #scroll {
     overflow: scroll;
     color: pink;
+    overflow-x: scroll;
 }
 #auto {
     overflow: auto;
