@@ -8,9 +8,15 @@
 }
 .flex-item:nth-of-type(odd) {
     background-color: gray;
-    flex-basis: 10%
 }
+/* .container {
+    border: 1px dashed red;
+    display: flex;
+    flex-direction: column;
+} */
+
 .container {
     border: 1px dashed red;
     display: flex;
+    flex-wrap: wrap;
 }
